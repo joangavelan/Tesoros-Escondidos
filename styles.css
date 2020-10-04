@@ -1,0 +1,178 @@
+:root {
+    --color-primary: #96644B;
+    --color-secondary: #E2BE74;
+    --color-tertiary: #83504B;
+    --color-fourth: #562826;
+    --font-primary: 'Neue Haas';
+}
+
+@font-face {
+    src: url(fonts/NeueHaasDisplay-Light.ttf);
+    font-family: 'Neue Haas';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(fonts/NeueHaasDisplay-Roman.ttf);
+    font-family: 'Neue Haas';
+    font-weight: 500;
+}
+
+@font-face {
+    src: url(fonts/NeueHaasDisplay-Mediu.ttf);
+    font-family: 'Neue Haas';
+    font-weight: 600;
+}
+
+@font-face {
+    src: url(fonts/NeueHaasDisplay-Bold.ttf);
+    font-family: 'Neue Haas';
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(fonts/NeueHaasDisplay-Black.ttf);
+    font-family: 'Neue Haas';
+    font-weight: 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    padding: 3rem;
+}
+
+header {
+    background: url(img/TE-portada.jpg) no-repeat 50% 99%;
+    background-size: cover;
+    padding: 30px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.s1 {
+    background-color: #E2BE74;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 div {
+    width: 450px;
+}
+
+.s1 img {
+    display: block;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.s1 p {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--color-tertiary);
+}
+
+.s2 {
+    background: url(img/TE-libro.jpg) no-repeat center;
+    background-size: cover;
+    padding: 7rem;
+}
+
+.button {
+    display: block;
+    color: var(--color-fourth);
+    background-color: white;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 12px 35px;
+    border-radius: 200px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin: 0% auto;
+}
+
+.s3 .button {
+    color: white;
+    background-color: var(--color-primary);
+
+}
+
+.s3 img {
+    display: block;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.s4 {
+    background: url(img/Web\ 3.jpg) no-repeat 50% 80%;
+    background-size: cover;
+}
+
+.s4 div {
+    margin: 2% auto 0;
+    text-align: center;
+    width: 550px;
+}
+
+.s4 img {
+    display: block;
+    width: 100%;
+}
+
+.s4 p {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.s5 {
+    background-color: #00CCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.s5 div {
+    width: 40%;
+    padding-bottom: 15rem;
+}
+
+.s5 div p {
+    font-size: 30px;
+    color: var(--color-tertiary);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.s5 div img {
+    display: block;
+    width: 100%;
+}
+
+.s5 span {
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+}
