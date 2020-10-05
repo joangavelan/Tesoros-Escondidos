@@ -54,8 +54,6 @@ body {
 
 header {
     background: url(img/TE-portada.jpg) no-repeat 50% 99%;
-    background-size: cover;
-    padding: 30px;
 }
 
 .logo {
@@ -122,12 +120,12 @@ header {
 }
 
 .s4 {
-    background: url(img/Web\ 3.jpg) no-repeat 50% 80%;
+    background: url(img/Web\ 3.jpg) no-repeat center;
     background-size: cover;
 }
 
 .s4 div {
-    margin: 2% auto 0;
+    margin: 4% auto 0;
     text-align: center;
     width: 550px;
 }
