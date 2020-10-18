@@ -59,7 +59,7 @@ header {
 .logo {
     display: block;
     margin: 0 auto;
-    width: 800px;
+    width: 750px;
 }
 
 .s1 {
@@ -81,7 +81,7 @@ header {
 }
 
 .s1 p {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 600;
     color: var(--color-tertiary);
 }
@@ -94,28 +94,35 @@ header {
 
 .button {
     display: block;
-    color: var(--color-fourth);
+    color: var(--color-tertiary);
     background-color: white;
     font-size: 40px;
     font-weight: 600;
-    letter-spacing: -1px;
     padding: 12px 35px;
     border-radius: 200px;
     border: 0;
     outline: none;
     cursor: pointer;
     margin: 0% auto;
+    letter-spacing: -1px;
+}
+
+.s3 {
+    padding: 7rem;
 }
 
 .s3 .button {
     color: white;
     background-color: var(--color-primary);
+    padding: 12px 50px;
+    letter-spacing: 0;
+    margin-bottom: 2rem;
 
 }
 
 .s3 img {
     display: block;
-    width: 70%;
+    width: 65%;
     margin: 30px auto;
 }
 
@@ -157,7 +164,7 @@ header {
 
 .s5 div p {
     font-size: 30px;
-    color: var(--color-tertiary);
+    color: white;
     font-weight: 500;
     text-align: center;
     margin-bottom: 100px;
