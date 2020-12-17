@@ -78,7 +78,7 @@ section {
 .release__date {
   font-size: 4rem;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .release > p {
@@ -99,12 +99,12 @@ section {
 }
 
 .header__heading h1 {
-  font-size: 9rem;
+  font-size: 8rem;
   color: #D4BC64;
 }
 
 .header__heading h2 {
-  font-size: 10.5rem;
+  font-size: 11rem;
   color: #7A4E33;
   word-spacing: 1px;
 }
