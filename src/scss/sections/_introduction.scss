@@ -1,0 +1,25 @@
+.introduction {
+    background-color: #F5F0ED;
+
+    &__wrapper {
+        max-width: 145rem;
+        margin: 5% auto;
+        text-align: center;
+    }
+
+    & h3 {
+        font-size: 7rem;
+        line-height: 1.1;
+    }
+
+    &__content {
+        width: 87%;
+        margin: 5rem auto;
+
+        & p {
+            text-align: justify;
+            color: $color-primary;
+            font-size: 2.4rem;
+        }
+    }
+}
