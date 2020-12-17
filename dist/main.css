@@ -154,8 +154,11 @@ section {
   font-weight: 700;
 }
 
-.nav img[alt$=diamante] {
+.nav img {
   display: block;
+}
+
+.nav img[alt$=diamante] {
   width: 25px;
 }
 

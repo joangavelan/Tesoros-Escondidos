@@ -27,8 +27,11 @@
         }
     }
 
-    & img[alt$="diamante"] {
+    & img {
         display: block;
+    }
+
+    & img[alt$="diamante"] {
         width: 25px;
     }
 
