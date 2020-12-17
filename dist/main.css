@@ -192,9 +192,14 @@ section {
   text-align: center;
 }
 
-.introduction h3 {
+.introduction h2 {
+  color: #7A4E33;
   font-size: 6.5rem;
   line-height: 1.1;
+}
+
+.introduction h2 span {
+  color: #D4BC64;
 }
 
 .introduction__content {
