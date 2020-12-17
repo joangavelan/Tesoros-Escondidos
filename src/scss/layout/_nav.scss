@@ -16,13 +16,13 @@
     &__menu {
         display: flex;
         list-style-type: none;
-        margin: 0 1.5rem;
+        margin: 0 2rem;
 
         &-item a {
             color: $color-primary;
             font-size: 1.7rem;
             text-decoration: none;
-            margin: 0 1.5rem;
+            margin: 0 2rem;
             font-weight: 700;
         }
     }
