@@ -1,0 +1,82 @@
+.rutas {
+
+    &__heading {
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 7rem 0;
+
+        & h2 {
+            color: $color-primary;
+            font-size: 7.5rem;
+            text-align: center;
+    }
+
+        & p {
+            color: $color-primary-light;
+            font-size: 2.5rem;
+            text-align: justify;
+            font-weight: 500;
+            margin: 1rem 0;
+        }
+    }
+
+    &__map {
+        display: block;
+        max-width: 140rem;
+        width: 100%;
+        margin: 3rem auto;
+    }
+
+    &__items {
+        max-width: 135rem;
+        margin: 7rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item {
+        width: 17rem;
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+
+    &__title {
+        display: inline-block;
+        color: $color-white;
+        padding: 2px 3.5rem;
+        border-radius: 50px;
+
+        &--1 {
+            background-color: #FFCC00;
+        }
+
+        &--2 {
+            background-color: #FD014E;
+        }
+
+        &--3 {
+            background-color: #00349A;
+        }
+        
+        &--4 {
+            background-color: #019934;
+        }
+        
+        &--5 {
+            background-color: #FD6400;
+        }
+        
+        &--6 {
+            background-color: #663398;
+        }
+    }
+
+    &__description {
+        margin: 2rem 0;
+        color: $color-primary-light;
+        font-weight: 500;
+    }
+}

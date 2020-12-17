@@ -210,12 +210,92 @@ section {
 .introduction__content p {
   text-align: justify;
   color: #AE836A;
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 
 .introduction img {
   display: block;
   width: 100%;
+}
+
+.rutas__heading {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 7rem 0;
+}
+
+.rutas__heading h2 {
+  color: #7A4E33;
+  font-size: 7.5rem;
+  text-align: center;
+}
+
+.rutas__heading p {
+  color: #AE836A;
+  font-size: 2.5rem;
+  text-align: justify;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.rutas__map {
+  display: block;
+  max-width: 140rem;
+  width: 100%;
+  margin: 3rem auto;
+}
+
+.rutas__items {
+  max-width: 135rem;
+  margin: 7rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rutas__item {
+  width: 17rem;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.rutas__title {
+  display: inline-block;
+  color: #fff;
+  padding: 2px 3.5rem;
+  border-radius: 50px;
+}
+
+.rutas__title--1 {
+  background-color: #FFCC00;
+}
+
+.rutas__title--2 {
+  background-color: #FD014E;
+}
+
+.rutas__title--3 {
+  background-color: #00349A;
+}
+
+.rutas__title--4 {
+  background-color: #019934;
+}
+
+.rutas__title--5 {
+  background-color: #FD6400;
+}
+
+.rutas__title--6 {
+  background-color: #663398;
+}
+
+.rutas__description {
+  margin: 2rem 0;
+  color: #AE836A;
+  font-weight: 500;
 }
 
