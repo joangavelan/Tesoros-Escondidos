@@ -45,6 +45,10 @@ h6 {
   line-height: 1.5;
 }
 
+.container {
+  position: relative;
+}
+
 p {
   line-height: 1.5;
 }
@@ -115,7 +119,47 @@ section {
 
 .header__heading i {
   font-size: 4.5rem;
-  color: #AC7964;
+  color: #AE836A;
   font-weight: 400;
+}
+
+.nav-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  border-bottom: 1px solid #d3d3d3;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0 1.5rem;
+}
+
+.nav__menu-item a {
+  color: #7A4E33;
+  font-size: 1.7rem;
+  text-decoration: none;
+  margin: 0 1.5rem;
+  font-weight: 700;
+}
+
+.nav img[alt$=diamante] {
+  display: block;
+  width: 25px;
+}
+
+.nav img[alt$=whatsapp] {
+  width: 20px;
 }
 

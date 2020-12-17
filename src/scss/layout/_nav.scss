@@ -1,0 +1,38 @@
+.nav-container {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: $color-white;
+    padding: 2rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__menu {
+        display: flex;
+        list-style-type: none;
+        margin: 0 1.5rem;
+
+        &-item a {
+            color: $color-primary;
+            font-size: 1.7rem;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: 700;
+        }
+    }
+
+    & img[alt$="diamante"] {
+        display: block;
+        width: 25px;
+    }
+
+    & img[alt$="whatsapp"] {
+        width: 20px;
+    }
+}
