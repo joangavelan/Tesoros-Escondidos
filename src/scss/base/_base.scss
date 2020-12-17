@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Fonts
+@font-face {
+    font-family: 'Neue Haas Display', sans-serif;
+    src: url(/assets/fonts/NeueHaasDisplay-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Haas Display', sans-serif;
+    src: url(/assets/fonts/NeueHaasDisplay-Medium.ttf);
+}
+
+body {
+    min-height: 100vh;
+    font-family: $main-font-stack;
+}
