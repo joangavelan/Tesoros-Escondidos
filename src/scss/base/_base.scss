@@ -26,9 +26,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Neue Haas Display';
+    src: url(/assets/fonts/NeueHaasDisplay-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 html {
     font-size: 62.5%;
+
+    @media only screen and (max-width: 512px) {
+        font-size: 50%;
+    }
 }
 
 body {
@@ -37,6 +48,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
     line-height: 1.5;
 }
 

@@ -1,25 +1,35 @@
 .introduction {
     background-color: #F5F0ED;
+    padding: 0;
 
     &__wrapper {
-        max-width: 145rem;
-        margin: 5% auto;
+        max-width: 140rem;
+        margin: 0 auto;
+        padding: 12rem 3rem;
         text-align: center;
     }
 
     & h3 {
-        font-size: 7rem;
+        font-size: 6.5rem;
         line-height: 1.1;
     }
 
     &__content {
-        width: 87%;
+        width: 77%;
         margin: 5rem auto;
 
         & p {
             text-align: justify;
-            color: $color-primary;
-            font-size: 2.4rem;
+            color: $color-primary-light;
+            font-size: 2.6rem;
+            font-weight: 500;
         }
+
+        
+    }
+
+    & img {
+        display: block;
+        width: 100%;
     }
 }

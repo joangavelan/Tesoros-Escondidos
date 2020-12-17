@@ -27,8 +27,21 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url(/assets/fonts/NeueHaasDisplay-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 html {
   font-size: 62.5%;
+}
+
+@media only screen and (max-width: 512px) {
+  html {
+    font-size: 50%;
+  }
 }
 
 body {
@@ -42,6 +55,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -168,27 +182,35 @@ section {
 
 .introduction {
   background-color: #F5F0ED;
+  padding: 0;
 }
 
 .introduction__wrapper {
-  max-width: 145rem;
-  margin: 5% auto;
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 12rem 3rem;
   text-align: center;
 }
 
 .introduction h3 {
-  font-size: 7rem;
+  font-size: 6.5rem;
   line-height: 1.1;
 }
 
 .introduction__content {
-  width: 87%;
+  width: 77%;
   margin: 5rem auto;
 }
 
 .introduction__content p {
   text-align: justify;
-  color: #7A4E33;
-  font-size: 2.4rem;
+  color: #AE836A;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.introduction img {
+  display: block;
+  width: 100%;
 }
 
