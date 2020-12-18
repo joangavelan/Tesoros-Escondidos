@@ -439,6 +439,14 @@ section {
     color: #7A4E33;
     font-weight: 400;
   }
+
+  .introduction img {
+    height: 40rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 40%;
+       object-position: 40%;
+  }
 }
 
 .rutas__heading {

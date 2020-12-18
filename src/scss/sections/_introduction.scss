@@ -51,12 +51,19 @@
         &__content {
             margin: 0 auto;
             width: 85%;
+
             & p {
                 text-align: center;
                 font-size: 1.8rem;
                 color: $color-primary;
                 font-weight: 400;
             }
+        }
+
+        & img {
+            height: 40rem;
+            object-fit: cover;
+            object-position: 40%;
         }
     }
 }
