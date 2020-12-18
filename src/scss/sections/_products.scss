@@ -1,25 +1,8 @@
 .products {
     background-color: $color-black;
 
-    &__encyclopedia-gallery {
+    &-container {
         max-width: 110rem;
-        display: flex;
-        flex-wrap: wrap;
         margin: 0 auto;
-        justify-content: space-between;
-
-        & img {
-            display: block;
-        }
-
-        & img:nth-child(1) {
-            width: 100%;
-            margin-bottom: 4%;
-        }
-
-        & img:nth-child(2),
-        & img:nth-child(3) {
-            width: 48%;
-        }
     }
 }

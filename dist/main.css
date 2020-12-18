@@ -126,6 +126,26 @@ section {
   margin: 2.5rem 0;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery img {
+  display: block;
+}
+
+.gallery img:nth-child(1) {
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+.gallery img:nth-child(2),
+.gallery img:nth-child(3) {
+  width: 48%;
+}
+
 .header {
   position: relative;
   min-height: 186rem;
@@ -325,25 +345,8 @@ section {
   background-color: #000;
 }
 
-.products__encyclopedia-gallery {
+.products-container {
   max-width: 110rem;
-  display: flex;
-  flex-wrap: wrap;
   margin: 0 auto;
-  justify-content: space-between;
-}
-
-.products__encyclopedia-gallery img {
-  display: block;
-}
-
-.products__encyclopedia-gallery img:nth-child(1) {
-  width: 100%;
-  margin-bottom: 4%;
-}
-
-.products__encyclopedia-gallery img:nth-child(2),
-.products__encyclopedia-gallery img:nth-child(3) {
-  width: 48%;
 }
 
