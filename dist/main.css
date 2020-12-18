@@ -104,6 +104,10 @@ section {
   margin: 0 auto;
 }
 
+.mb5 {
+  margin-bottom: 5rem;
+}
+
 .release {
   color: #fff;
   position: absolute;
@@ -167,6 +171,25 @@ section {
 .product-header__description {
   font-size: 2.6rem;
   margin: 2.5rem 0;
+}
+
+@media (max-width: 37.5em) {
+  .product-header {
+    max-width: 90%;
+    padding: 3rem 0;
+  }
+
+  .product-header__title {
+    font-size: 4.2rem;
+  }
+
+  .product-header__tagline {
+    font-size: 1.7rem;
+  }
+
+  .product-header__description {
+    font-size: 1.5rem;
+  }
 }
 
 .gallery {
