@@ -129,6 +129,25 @@ section {
   font-weight: 300;
 }
 
+@media (max-width: 37.5em) {
+  .release {
+    color: #7A4E33;
+    bottom: 52%;
+  }
+
+  .release__img {
+    width: 5rem;
+  }
+
+  .release__date {
+    font-size: 2.5rem;
+  }
+
+  .release > p {
+    font-size: 1.6rem;
+  }
+}
+
 .product-header {
   max-width: 70rem;
   color: #fff;
@@ -172,7 +191,7 @@ section {
 
 .header {
   position: relative;
-  min-height: 186rem;
+  height: 186rem;
   background: url(/assets/images/desktop/Montañas-en-Áncash-Perú.jpg) center no-repeat;
   background-size: cover;
 }
@@ -201,6 +220,35 @@ section {
   font-size: 4.5rem;
   color: #AE836A;
   font-weight: 400;
+}
+
+@media (max-width: 37.5em) {
+  .header {
+    height: 100vh;
+    background: url(/assets/images/mobile/header-bg-mobile.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  .header__heading {
+    transform: translateY(0);
+  }
+
+  .header__heading h1 {
+    font-size: 4rem;
+  }
+
+  .header__heading h2 {
+    font-size: 5.4rem;
+  }
+
+  .header__heading img {
+    width: 17rem;
+    margin: 1rem 0;
+  }
+
+  .header__heading i {
+    font-size: 2.5rem;
+  }
 }
 
 .nav-container {
