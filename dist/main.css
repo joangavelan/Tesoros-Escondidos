@@ -48,6 +48,13 @@ $breakpoint argument choices:
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Neue Haas Display";
+  src: url(/assets/fonts/NeueHaasDisplay-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -489,10 +496,13 @@ section {
   }
 
   .introduction__content p {
-    text-align: center;
-    font-size: 1.8rem;
     color: #7A4E33;
-    font-weight: 400;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  .introduction__content strong {
+    font-weight: 900;
   }
 
   .introduction img {
