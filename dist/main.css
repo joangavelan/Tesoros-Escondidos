@@ -417,6 +417,30 @@ section {
   width: 100%;
 }
 
+@media (max-width: 37.5em) {
+  .introduction__wrapper {
+    padding: 7rem 3rem;
+  }
+
+  .introduction h2 {
+    font-size: 3rem;
+    line-height: inherit;
+    margin-bottom: 3rem;
+  }
+
+  .introduction__content {
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  .introduction__content p {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #7A4E33;
+    font-weight: 400;
+  }
+}
+
 .rutas__heading {
   max-width: 80rem;
   margin: 0 auto;

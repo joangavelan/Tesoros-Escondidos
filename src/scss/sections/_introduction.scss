@@ -35,4 +35,28 @@
         display: block;
         width: 100%;
     }
+
+    @include responsive(phone) {
+        
+        &__wrapper {
+            padding: 7rem 3rem;
+        }
+
+        & h2 {
+            font-size: 3rem;
+            line-height: inherit;
+            margin-bottom: 3rem;
+        }
+
+        &__content {
+            margin: 0 auto;
+            width: 85%;
+            & p {
+                text-align: center;
+                font-size: 1.8rem;
+                color: $color-primary;
+                font-weight: 400;
+            }
+        }
+    }
 }
