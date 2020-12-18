@@ -65,6 +65,7 @@ h6 {
 
 p {
   line-height: 1.5;
+  font-weight: 500;
 }
 
 section {
@@ -76,7 +77,7 @@ section {
 }
 
 .cSdry {
-  color: #D4BC64;
+  color: #D6B16A;
 }
 
 .release {
@@ -104,6 +105,27 @@ section {
   font-weight: 300;
 }
 
+.product-header {
+  max-width: 70rem;
+  color: #fff;
+  margin: 0 auto;
+  padding: 12rem 0 10rem;
+  text-align: center;
+}
+
+.product-header__title {
+  font-size: 8.5rem;
+}
+
+.product-header__tagline {
+  font-size: 3.5rem;
+}
+
+.product-header__description {
+  font-size: 2.6rem;
+  margin: 2.5rem 0;
+}
+
 .header {
   position: relative;
   min-height: 186rem;
@@ -118,7 +140,7 @@ section {
 
 .header__heading h1 {
   font-size: 8rem;
-  color: #D4BC64;
+  color: #D6B16A;
 }
 
 .header__heading h2 {
@@ -199,7 +221,7 @@ section {
 }
 
 .introduction h2 span {
-  color: #D4BC64;
+  color: #D6B16A;
 }
 
 .introduction__content {
@@ -297,5 +319,31 @@ section {
   margin: 2rem 0;
   color: #AE836A;
   font-weight: 500;
+}
+
+.products {
+  background-color: #000;
+}
+
+.products__encyclopedia-gallery {
+  max-width: 110rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.products__encyclopedia-gallery img {
+  display: block;
+}
+
+.products__encyclopedia-gallery img:nth-child(1) {
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+.products__encyclopedia-gallery img:nth-child(2),
+.products__encyclopedia-gallery img:nth-child(3) {
+  width: 48%;
 }
 
