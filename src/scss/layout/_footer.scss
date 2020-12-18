@@ -3,6 +3,7 @@
     padding: 3rem;
     background: url(/assets/images/desktop/Bahia-de-Chimbote.jpg) center no-repeat;
     background-size: cover;
+    position: relative;
 
     &__brand {
         max-width: 70rem;
@@ -19,6 +20,35 @@
         & img {
             width: 100%;
             margin: 4rem 0;
+        }
+    }
+
+    &__contact {
+        position: absolute;
+        display: none;
+        text-align: center;
+        color: $color-white;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    @include responsive(phone) {
+        height: 100vh;
+        background: url(/assets/images/mobile/footer-bg-mobile.jpg) center no-repeat;
+        background-size: cover;
+
+        &__brand {
+            max-width: 30rem;
+        }
+
+        &__contact {
+            display: block;
+
+            & p {
+                font-size: 1.1rem;
+                line-height: 1.7;
+            }
         }
     }
 }
