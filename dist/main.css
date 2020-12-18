@@ -231,6 +231,31 @@ section {
   width: 20px;
 }
 
+.footer {
+  height: 162rem;
+  padding: 3rem;
+  background: url(/assets/images/desktop/Bahia-de-Chimbote.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.footer__brand {
+  max-width: 70rem;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  transform: translateY(65%);
+}
+
+.footer__brand span {
+  font-size: 2.8rem;
+  word-spacing: 1px;
+}
+
+.footer__brand img {
+  width: 100%;
+  margin: 4rem 0;
+}
+
 .introduction {
   background-color: #F5F0ED;
   padding: 0;
