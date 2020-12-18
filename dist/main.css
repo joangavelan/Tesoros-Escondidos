@@ -102,19 +102,6 @@ section {
   color: #D6B16A;
 }
 
-.bcDark {
-  background-color: #010101;
-}
-
-.container-md {
-  max-width: 110rem;
-  margin: 0 auto;
-}
-
-.mb5 {
-  margin-bottom: 5rem;
-}
-
 .release {
   color: #fff;
   position: absolute;
@@ -629,3 +616,19 @@ section {
     padding: 2px 2rem;
   }
 }
+
+.products {
+  background-color: #010101;
+}
+
+.products__container {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 37.5em) {
+  .products__item {
+    margin-bottom: 3rem;
+  }
+}
+
