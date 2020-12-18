@@ -482,11 +482,11 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
 }
 
 .rutas__item {
-  width: 17rem;
+  max-width: 17rem;
   text-align: center;
   font-size: 1.6rem;
   padding: 1rem;
@@ -527,5 +527,37 @@ section {
   margin: 2rem 0;
   color: #AE836A;
   font-weight: 500;
+}
+
+@media (max-width: 37.5em) {
+  .rutas__heading {
+    padding: 4.5rem 0 0;
+  }
+
+  .rutas__heading h2 {
+    font-size: 4.2rem;
+  }
+
+  .rutas__heading p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .rutas__map {
+    margin: 5rem auto;
+  }
+
+  .rutas__items {
+    margin: 0 auto;
+  }
+
+  .rutas__item {
+    max-width: calc(33% - 2rem);
+    padding: 0;
+  }
+
+  .rutas__title {
+    padding: 2px 2rem;
+  }
 }
 

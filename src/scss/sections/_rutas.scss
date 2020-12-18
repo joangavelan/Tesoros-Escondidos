@@ -33,11 +33,11 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
+        align-items: top;
     }
 
     &__item {
-        width: 17rem;
+        max-width: 17rem;
         text-align: center;
         font-size: 1.6rem;
         padding: 1rem;
@@ -78,5 +78,38 @@
         margin: 2rem 0;
         color: $color-primary-light;
         font-weight: 500;
+    }
+
+    @include responsive(phone) {
+
+        &__heading {
+            padding: 4.5rem 0 0;
+            
+            & h2 {
+                font-size: 4.2rem;
+            }
+
+            & p {
+                font-size: 1.8rem;
+                text-align: center;
+            }
+        }
+
+        &__map {
+            margin: 5rem auto;
+        }
+
+        &__items {
+            margin: 0 auto;
+        }
+
+        &__item {
+            max-width: calc(33% - 2rem);
+            padding: 0;
+        }
+
+        &__title {
+            padding: 2px 2rem;
+        }
     }
 }
