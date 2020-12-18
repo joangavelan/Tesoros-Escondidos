@@ -369,6 +369,10 @@ section {
     margin: 2rem 0;
   }
 
+  .nav__menu-item a {
+    font-size: 2rem;
+  }
+
   .nav__hamburger {
     display: block;
   }

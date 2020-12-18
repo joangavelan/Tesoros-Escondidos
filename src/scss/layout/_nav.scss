@@ -80,6 +80,10 @@
             &-item:not(:last-child) {
                 margin: 2rem 0;
             }
+
+            &-item a {
+                font-size: 2rem;
+            }
         }
 
         &__hamburger {
