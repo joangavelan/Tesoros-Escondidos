@@ -1,3 +1,9 @@
 //colors
 .cPmry {color: $color-primary};
 .cSdry {color: $color-secondary};
+
+//background
+.bcDark {background-color: #010101;}
+
+//containers
+.container-md {max-width: 110rem; margin: 0 auto;}

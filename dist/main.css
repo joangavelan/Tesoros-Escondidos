@@ -80,6 +80,15 @@ section {
   color: #D6B16A;
 }
 
+.bcDark {
+  background-color: #010101;
+}
+
+.container-md {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
 .release {
   color: #fff;
   position: absolute;
@@ -339,14 +348,5 @@ section {
   margin: 2rem 0;
   color: #AE836A;
   font-weight: 500;
-}
-
-.products {
-  background-color: #010101;
-}
-
-.products-container {
-  max-width: 110rem;
-  margin: 0 auto;
 }
 
