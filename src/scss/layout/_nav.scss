@@ -27,6 +27,31 @@
         }
     }
 
+    &__hamburger {
+        cursor: pointer;
+        display: none;
+
+        &-bar {
+            background-color: $color-primary;
+            margin: 6px 0;
+            height: 4px;
+            width: 25px;
+            border-radius: 2px;
+            position: relative;
+            transition: 0.3s;
+        }
+        
+        &-bar--1.active {
+            top: 5px;
+            transform: rotate(45deg);
+        }
+        
+        &-bar--2.active {
+            transform: rotate(-45deg);
+            bottom: 5px;
+        }
+    }
+
     & img {
         display: block;
     }
@@ -37,5 +62,38 @@
 
     & img[alt$="whatsapp"] {
         width: 20px;
+    }
+
+    @include responsive(tab-port) {
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &__menu {
+            display: block;
+            width: 100%;
+            order: 1;
+            text-align: center;
+            transition: all .3s ease;
+            max-height: 0;
+            overflow: hidden;
+            margin: 0;
+
+            &-item:not(:last-child) {
+                margin: 2rem 0;
+            }
+        }
+
+        &__hamburger {
+            display: block;
+        }
+
+        & img[alt$="diamante"] {
+            width: 35px;
+            margin-right: 9px;
+        }
+
+        & img[alt$="whatsapp"] {
+            width: 23px;
+        }
     }
 }

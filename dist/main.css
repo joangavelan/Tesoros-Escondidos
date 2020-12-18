@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+/* 
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+1200 - 1800px:  Desktop first
+1800px + :      Big desktop
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land 
+- big-desktop
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -220,6 +234,31 @@ section {
   font-weight: 700;
 }
 
+.nav__hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.nav__hamburger-bar {
+  background-color: #7A4E33;
+  margin: 6px 0;
+  height: 4px;
+  width: 25px;
+  border-radius: 2px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav__hamburger-bar--1.active {
+  top: 5px;
+  transform: rotate(45deg);
+}
+
+.nav__hamburger-bar--2.active {
+  transform: rotate(-45deg);
+  bottom: 5px;
+}
+
 .nav img {
   display: block;
 }
@@ -230,6 +269,41 @@ section {
 
 .nav img[alt$=whatsapp] {
   width: 20px;
+}
+
+@media (max-width: 56.25em) {
+  .nav {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .nav__menu {
+    display: block;
+    width: 100%;
+    order: 1;
+    text-align: center;
+    transition: all 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .nav__menu-item:not(:last-child) {
+    margin: 2rem 0;
+  }
+
+  .nav__hamburger {
+    display: block;
+  }
+
+  .nav img[alt$=diamante] {
+    width: 35px;
+    margin-right: 9px;
+  }
+
+  .nav img[alt$=whatsapp] {
+    width: 23px;
+  }
 }
 
 .footer {
