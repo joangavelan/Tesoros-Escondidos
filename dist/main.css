@@ -102,6 +102,10 @@ section {
   color: #D6B16A;
 }
 
+.mR1px {
+  margin-right: 1px;
+}
+
 .release {
   color: #fff;
   position: absolute;
@@ -165,6 +169,7 @@ section {
 .product-header__description {
   font-size: 2.6rem;
   margin: 2.5rem 0;
+  font-weight: 400;
 }
 
 @media (max-width: 37.5em) {
@@ -274,8 +279,7 @@ section {
   top: 0;
   left: 0;
   z-index: 9999;
-  border-bottom: 1px solid #d3d3d3;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 2rem;
 }
 
@@ -293,9 +297,9 @@ section {
 
 .nav__menu-item a {
   color: #7A4E33;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   text-decoration: none;
-  margin: 0 2rem;
+  margin: 0 2.5rem;
   font-weight: 500;
 }
 
@@ -329,11 +333,11 @@ section {
 }
 
 .nav img[alt$=diamante] {
-  width: 25px;
+  width: 27px;
 }
 
 .nav img[alt$=whatsapp] {
-  width: 20px;
+  width: 22px;
 }
 
 @media (max-width: 56.25em) {
@@ -387,7 +391,7 @@ section {
   margin: 0 auto;
   color: #fff;
   text-align: center;
-  transform: translateY(65%);
+  transform: translateY(80%);
 }
 
 .footer__brand span {
@@ -401,13 +405,18 @@ section {
 }
 
 .footer__contact {
+  width: 100%;
   position: absolute;
-  display: none;
-  text-align: center;
   color: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.footer__contact p {
+  font-size: 2.3rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 @media (max-width: 37.5em) {
@@ -419,10 +428,6 @@ section {
 
   .footer__brand {
     max-width: 35rem;
-  }
-
-  .footer__contact {
-    display: block;
   }
 
   .footer__contact p {
@@ -439,7 +444,7 @@ section {
 .introduction__wrapper {
   max-width: 140rem;
   margin: 0 auto;
-  padding: 12rem 3rem;
+  padding: 10rem 3rem;
   text-align: center;
 }
 
@@ -454,7 +459,7 @@ section {
 }
 
 .introduction__content {
-  width: 77%;
+  width: 72%;
   margin: 5rem auto;
 }
 
@@ -462,7 +467,7 @@ section {
   text-align: justify;
   color: #AE836A;
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .introduction img {
@@ -521,7 +526,7 @@ section {
   color: #AE836A;
   font-size: 2.5rem;
   text-align: justify;
-  font-weight: 500;
+  font-weight: 400;
   margin: 1rem 0;
 }
 
@@ -544,14 +549,15 @@ section {
 .rutas__item {
   max-width: 17rem;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   padding: 1rem;
 }
 
 .rutas__title {
   display: inline-block;
+  width: 13rem;
+  padding: 3px 0;
   color: #fff;
-  padding: 2px 3.5rem;
   border-radius: 50px;
 }
 
@@ -582,7 +588,7 @@ section {
 .rutas__description {
   margin: 2rem 0;
   color: #AE836A;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 @media (max-width: 37.5em) {

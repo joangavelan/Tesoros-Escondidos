@@ -3,8 +3,7 @@
     top: 0;
     left: 0;
     z-index: 9999;
-    border-bottom: 1px solid #d3d3d3;
-    background-color: $color-white;
+    background-color: rgba(255,255,255, .85);
     padding: 2rem;
 }
 
@@ -20,9 +19,9 @@
 
         &-item a {
             color: $color-primary;
-            font-size: 1.7rem;
+            font-size: 1.6rem;
             text-decoration: none;
-            margin: 0 2rem;
+            margin: 0 2.5rem;
             font-weight: 500;
         }
     }
@@ -57,11 +56,11 @@
     }
 
     & img[alt$="diamante"] {
-        width: 25px;
+        width: 27px;
     }
 
     & img[alt$="whatsapp"] {
-        width: 20px;
+        width: 22px;
     }
 
     @include responsive(tab-port) {
