@@ -303,6 +303,10 @@ section {
   font-weight: 500;
 }
 
+.nav__menu-item a:hover {
+  color: #472b1b;
+}
+
 .nav__hamburger {
   cursor: pointer;
   display: none;

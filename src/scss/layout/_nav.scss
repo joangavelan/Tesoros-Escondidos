@@ -24,6 +24,10 @@
             margin: 0 2.5rem;
             font-weight: 500;
         }
+
+        &-item a:hover {
+            color: #472b1b;
+        }
     }
 
     &__hamburger {
