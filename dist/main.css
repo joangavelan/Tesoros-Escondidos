@@ -213,14 +213,14 @@ section {
 
 .header {
   position: relative;
-  height: 186rem;
+  height: 166.3rem;
   background: url(/assets/images/desktop/Montañas-en-Áncash-Perú.jpg) center no-repeat;
   background-size: cover;
 }
 
 .header__heading {
   text-align: center;
-  transform: translateY(25%);
+  transform: translateY(10%);
 }
 
 .header__heading h1 {
@@ -383,7 +383,7 @@ section {
 }
 
 .footer {
-  height: 162rem;
+  height: 100vh;
   padding: 3rem;
   background: url(/assets/images/desktop/Bahia-de-Chimbote.jpg) center no-repeat;
   background-size: cover;
@@ -395,7 +395,7 @@ section {
   margin: 0 auto;
   color: #fff;
   text-align: center;
-  transform: translateY(80%);
+  transform: translateY(25%);
 }
 
 .footer__brand span {
@@ -412,14 +412,14 @@ section {
   width: 100%;
   position: absolute;
   color: #fff;
-  top: 50%;
+  bottom: 2rem;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .footer__contact p {
-  font-size: 2.3rem;
-  font-weight: 400;
+  font-size: 1.8rem;
+  font-weight: 500;
   text-align: center;
 }
 
