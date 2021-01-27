@@ -199,6 +199,7 @@ section {
 
 .gallery img {
   display: block;
+  height: auto;
 }
 
 .gallery img:nth-child(1) {
